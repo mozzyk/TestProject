@@ -1,0 +1,1563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="ServiceModelEvents.dll.mui" PsrId="3" FileType="4" SrcCul="en-US" TgtCul="cs-CZ" Desc="Commenting file created by LCXAdmin. For more information, please visit http://localizability/longhorn/LcxAdmin.asp" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <Props>
+    <Str Name="CustomName1" Val="Custom 1" />
+    <Str Name="CustomName2" Val="Custom 2" />
+    <Str Name="CustomName3" Val="Custom 3" />
+    <Str Name="CustomName4" Val="Custom 4" />
+    <Str Name="CustomName5" Val="Custom 5" />
+    <Str Name="CustomName6" Val="IQA" />
+  </Props>
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Note" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";Message Table" ItemType=";Dummy" PsrId="3" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Modified By="omrik" DateTime="2007-06-29T06:26:27Z" />
+    <Item ItemId="1" ItemType="11" PsrId="3" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Modified By="omrik" DateTime="2007-06-29T06:26:28Z" />
+      <Item ItemId="-2147352548" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[%1%r]D;]A;Sender Information: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New" AutoAppr="N/A">
+            <Val><![CDATA[%1%r]D;]A;Absenderinformationen: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="tln" DateTime="2011-05-11T04:32:13Z" />
+        <Props>
+          <Str Name="Custom4" Val="Dev11_HO1" />
+          <Str Name="Custom5" Val="MT bucket 2" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073676188" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Tracing was not set up. Tracing will be disabled.%r]D;]A;Exception: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die Ablaufverfolgung wurde nicht eingerichtet. Die Ablaufverfolgung wird deaktiviert.%r]D;]A;Ausnahme: %1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to set tracing up. Tracing will be disabled.%r]D;]A;Exception: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073676187" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The trace source was not initialized. Tracing will be disabled.%r]D;]A;Exception: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die Ablaufverfolgungsquelle wurde nicht initialisiert. Die Ablaufverfolgung wird deaktiviert.%r]D;]A;Ausnahme: %1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to initialize the trace source. Tracing will be disabled.%r]D;]A;Exception: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073676186" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[FailFast was invoked.%r]D;]A;Message: %1%r]D;]A;Stack Trace: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA["FailFast" wurde aufgerufen.%r]D;]A;Nachricht: %1%r]D;]A;Stapelablaufverfolgung: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Invoked FailFast%r]D;]A;Message: %1%r]D;]A;Stack Trace: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073676185" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An exception was thrown during FailFast.%r]D;]A;Exception: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Bei der Ausführung von FailFast wurde eine Ausnahme ausgelöst.%r]D;]A;Ausnahme: %1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="-1073676184" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An event or events were not traced.%r]D;]A;Original event string: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Mindestens ein Ereignis wurde nicht nachverfolgt.%r]D;]A;Ursprüngliche Ereigniszeichenfolge: %1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to trace an event or events.%r]D;]A;Original event string: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073676183" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An event or events were not traced.%r]D;]A;Original event string:%r]D;]A;%1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Mindestens ein Ereignis wurde nicht nachverfolgt.%r]D;]A;Ursprüngliche Ereigniszeichenfolge: %r]D;]A;%1%r]D;]A;Ausnahme: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to trace an event or events.%r]D;]A;Original event string: %r]D;]A;%1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073676182" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An invariant assertion is false.%r]D;]A;Message: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Eine invariante Assertion ist falsch.%r]D;]A;Nachricht: %1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Invariant Assertion is false.%r]D;]A;Message: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073676181" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[PII logging has been turned on. Sensitive information will be logged in the clear.%r]D;]A;Process Name: %1%r]D;]A;Process ID: %2%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die PII-Protokollierung wurde aktiviert. Vertrauliche Informationen werden unverschlüsselt protokolliert.%r]D;]A;Prozessname: %1%r]D;]A;Prozess-ID: %2%r]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="-1073676180" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[No known PII is being logged: logging of known PII is not allowed. To allow logging of known PII, please set "enableLoggingKnownPii" to true in machine.config.%r]D;]A;Process Name: %1%r]D;]A;Process ID: %2%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Es wurde kein bekannter PII protokolliert: Die Protokollierung von bekannten PII ist nicht zulässig. Um die Protokollierung von bekannten PII zuzulassen, setzen Sie "enableLoggingKnownPii" in "machine.config" auf "true".%r]D;]A;Prozessname: %1%r]D;]A;Prozess-ID: %2%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[No known PII is being logged: logging of known PII is not allowed. To allow logging of known PII, please set ôenableLoggingKnownPiiö to true in machine.config.%r]D;]A;Process Name: %1%r]D;]A;Process ID: %2%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610751" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A Webhost unhandled exception occurred.%r]D;]A;Sender Information: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Unbehandelte Webhostausnahme.%r]D;]A;Absenderinformationen: %1%r]D;]A;Ausnahme: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Webhost unhandled exception%r]D;]A;Sender Information: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610750" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A WebHost HTTP exception occurred.%r]D;]A;Sender Information: %1%r]D;]A;HtmlErrorMessage:%r]D;]A;%2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[WebHost-HTTP-Ausnahme%r]D;]A;Absenderinformationen: %1%r]D;]A;HTML-Fehlermeldung:%r]D;]A;%2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[WebHost HTTP exception%r]D;]A;Sender Information: %1%r]D;]A;HtmlErrorMessage:%r]D;]A;%2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610749" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[WebHost failed to process a request.%r]D;]A;Sender Information: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[WebHost konnte eine Anforderung nicht verarbeiten.%r]D;]A;Absenderinformationen: %1%r]D;]A;Ausnahme: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[WebHost failed to process request%r]D;]A;Sender Information: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610748" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An error occurred while trying to listen for the URL '%1'. This worker process will be terminated.%r]D;]A;Sender Information: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler beim Lauschen für URL "%1". Dieser Arbeitsprozess wird beendet.%r]D;]A;Absenderinformationen: %2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[An error occurred trying to listen for url '%1', this worker process will be terminated%r]D;]A;Sender Information: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="Katrin" DateTime="2009-07-16T10:34:40Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610747" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A message was not logged.%r]D;]A;Exception: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Es wurde keine Nachricht protokolliert.%r]D;]A;Ausnahme: %1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to log message%r]D;]A;Exception: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610746" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A bad message logging filter that was accessing the message body was removed.%r]D;]A;XPath:%r]D;]A;%1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ein ungültiger Nachrichtenprotokollierungsfilter, der auf den Nachrichtentext zugegriffen hat, wurde entfernt.%r]D;]A;XPfad:%r]D;]A;%1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Bad message logging filter accessing the message body was removed%r]D;]A;XPath:%r]D;]A;%1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610745" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Message logging failed to create the trace source.%r]D;]A;Exception:%1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die Nachrichtenprotokollierung konnte die Ablaufverfolgungsquelle nicht erstellen.%r]D;]A;Ausnahme:%1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Message logging failed to create trace source%r]D;]A;Exception:%1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610744" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Message Logging has been turned on. Sensitive information may be logged in the clear, even if it was encrypted on the wire: for example, message bodies.%r]D;]A;Process Name: %1%r]D;]A;Process ID: %2%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die Nachrichtenprotokollierung wurde aktiviert. Vertrauliche Informationen werden möglicherweise unverschlüsselt protokolliert, auch wenn sie bei der Übertragung verschlüsselt waren, z. B. Nachrichtentexte.%r]D;]A;Prozessname: %1%r]D;]A;Prozess-ID: %2%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Message Logging has been turned on. Sensitive information may be logged in the clear, even if they were encrypted on the wire, e.g., message bodies.%r]D;]A;Process Name: %1%r]D;]A;Process ID: %2%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610743" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Message logging has been turned off.%r]D;]A;Process Name: %1%r]D;]A;Process ID: %2%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die Nachrichtenprotokollierung wurde deaktiviert.%r]D;]A;Prozessname: %1%r]D;]A;Prozess-ID: %2%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Message logging has been turned off%r]D;]A;Process Name: %1%r]D;]A;Process ID: %2%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610742" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A performance counter was not loaded.%r]D;]A;Category Name: %1%r]D;]A;Counter Name: %2%r]D;]A;Exception:%3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ein Leistungsindikator wurde nicht geladen.%r]D;]A;Kategoriename: %1%r]D;]A;Indikatorname: %2%r]D;]A;Ausnahme:%3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to load a performance counter%r]D;]A;Category Name: %1%r]D;]A;Counter Name: %2%r]D;]A;Exception:%3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610741" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A performance counter was not removed.%r]D;]A;Category Name: %1%r]D;]A;Counter Name: %2%r]D;]A;Instance Name: %3%r]D;]A;Exception:%4%r]D;]A;Process Name: %5%r]D;]A;Process ID: %6%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ein Leistungsindikator wurde nicht entfernt.%r]D;]A;Kategoriename: %1%r]D;]A;Indikatorname: %2%r]D;]A;Instanzname: %3%r]D;]A;Ausnahme:%4%r]D;]A;Prozessname: %5%r]D;]A;Prozess-ID: %6%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to remove a performance counter%r]D;]A;Category Name: %1%r]D;]A;Counter Name: %2%r]D;]A;Instance Name: %3%r]D;]A;Exception:%4%r]D;]A;Process Name: %5%r]D;]A;Process ID: %6%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610740" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WMI GetObject request was not processed.%r]D;]A;WMI Object: %1%r]D;]A;Exception:%2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die WMI-Anforderung "GetObject" wurde nicht verarbeitet.%r]D;]A;WMI-Objekt: %1%r]D;]A;Ausnahme:%2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to process WMI GetObject request%r]D;]A;WMI Object: %1%r]D;]A;Exception:%2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610739" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WMI PutInstance request was not processed.%r]D;]A;WMI Object: %1%r]D;]A;Exception:%2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die WMI-Anforderung "PutInstance" wurde nicht verarbeitet.%r]D;]A;WMI-Objekt: %1%r]D;]A;Ausnahme:%2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to process WMI PutInstance request%r]D;]A;WMI Object: %1%r]D;]A;Exception:%2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610738" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WMI DeleteInstance request was not processed.%r]D;]A;Exception:%1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die WMI-Anforderung "DeleteInstance" wurde nicht verarbeitet.%r]D;]A;Ausnahme:%1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to process WMI DeleteInstance request%r]D;]A;Exception:%1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610737" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WMI CreateInstance request was not processed.%r]D;]A;Class name: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die WMI-Anforderung "CreateInstance" wurde nicht verarbeitet.%r]D;]A;Klassenname: %1%r]D;]A;Ausnahme: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to process WMI CreateInstance request%r]D;]A;Class name:%1%r]D;]A;Exception:%2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610736" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WMI ExecQuery request was not processed.%r]D;]A;Exception:%1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die WMI-Anforderung "ExecQuery" wurde nicht verarbeitet.%r]D;]A;Ausnahme:%1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to process WMI ExecQuery request%r]D;]A;Exception:%1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610735" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WMI ExecMethod request was not processed.%r]D;]A;Exception:%1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die WMI-Anforderung "ExecMethod" wurde nicht verarbeitet.%r]D;]A;Ausnahme:%1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to process WMI ExecMethod request%r]D;]A;Exception:%1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610734" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WMI provider was not registered.%r]D;]A;WMI Object: %1%r]D;]A;Error:%2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Der WMI-Anbieter wurde nicht registriert.%r]D;]A;WMI-Objekt: %1%r]D;]A;Fehler:%2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to register WMI provider%r]D;]A;WMI Object: %1%r]D;]A;Error:%2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610733" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WMI provider was not unregistered.%r]D;]A;WMI Object: %1%r]D;]A;Error:%2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die Registrierung des WMI-Anbieters wurde nicht aufgehoben.%r]D;]A;WMI-Objekt: %1%r]D;]A;Fehler:%2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Failed to unregister WMI provider%r]D;]A;WMI Object: %1%r]D;]A;Error:%2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610732" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Type mismatch: CIM class %1 property %2 cannot accept value of type %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Typenkonflikt: CIM-Klasse "%1" "%2"-Eigenschaft , ein Wert des Typs "%3%r" st nicht möglich.]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Type mismatch: %1 does not match %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="Katrin" DateTime="2009-07-16T08:12:43Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610731" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Type mismatch: CIM class %1 does not have property %2 of type %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Typenkonflikt: Die CIM-Klasse "%1" enthält keine "%2"-Eigenschaft des Typs "%3%r".]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[ComPlus: Error starting service.%r]D;]A;AppId: %1%r]D;]A;ClsId: %2%r]D;]A;Surrogate: %3%r]D;]A;Exception: %4%r]D;]A;Process Name: %5%r]D;]A;Process ID: %6%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="Katrin" DateTime="2009-07-16T08:12:47Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610730" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[COM+: An error occurred while starting the service.%r]D;]A;AppId: %1%r]D;]A;ClsId: %2%r]D;]A;Surrogate: %3%r]D;]A;Exception: %4%r]D;]A;Process Name: %5%r]D;]A;Process ID: %6%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Com+: Fehler beim Starten des Diensts.%r]D;]A;Anw.-ID: %1%r]D;]A;Klassen-ID: %2%r]D;]A;Ersatz: %3%r]D;]A;Ausnahme: %4%r]D;]A;Prozessname: %5%r]D;]A;Prozess-ID: %6%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[ComPlus: Error starting service.%r]D;]A;AppId: %1%r]D;]A;ClsId: %2%r]D;]A;Surrogate: %3%r]D;]A;Exception: %4%r]D;]A;Process Name: %5%r]D;]A;Process ID: %6%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="KA" DateTime="2009-07-17T19:04:28Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610729" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[COM+: An error occurred while starting the DllHost initializer.%r]D;]A;AppId: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[COM+: Fehler beim Starten der DllHost-Initialisierung.%r]D;]A;Anw.-ID: %1%r]D;]A;Ausnahme: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[ComPlus: Error starting DllHost initializer.%r]D;]A;AppId: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610728" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[COM+: An error occurred while importing the type library.%r]D;]A;IID: %1%r]D;]A;Type library ID: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[COM+: Fehler beim Importieren der Typenbibliothek.%r]D;]A;IID: %1%r]D;]A;Typenbibliotheks-ID: %2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[ComPlus: Error In type library import.%r]D;]A;IID: %1%r]D;]A;Type library ID: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610727" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[COM+: A method call failed.%r]D;]A;From: %1%r]D;]A;App ID: %2%r]D;]A;CLSID: %3%r]D;]A;IID: %4%r]D;]A;Action: %5%r]D;]A;Surrogate: %6%r]D;]A;Instance ID: %7%r]D;]A;Managed Thread ID: %8%r]D;]A;Unmanaged Thread ID: %9%r]D;]A;Caller Identity: %10%r]D;]A;Exception: %11%r]D;]A;Process Name: %12%r]D;]A;Process ID: %13%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[COM+: Fehler beim Methodenaufruf.%r]D;]A;Von: %1%r]D;]A;Anw.-ID: %2%r]D;]A;CLSID: %3%r]D;]A;IID: %4%r]D;]A;Aktion: %5%r]D;]A;Ersatz: %6%r]D;]A;Instanz-ID: %7%r]D;]A;ID des verwalteten Thread: %8%r]D;]A;ID des nicht verwalteten Thread: %9%r]D;]A;Aufruferidentität: %10%r]D;]A;Ausnahme: %11%r]D;]A;Prozessname: %12%r]D;]A;Prozess-ID: %13%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[ComPlus: Method call failed.%r]D;]A;From: %1%r]D;]A;App ID: %2%r]D;]A;CLSID: %3%r]D;]A;IID: %4%r]D;]A;Action: %5%r]D;]A;Surrogate: %6%r]D;]A;Instance ID: %7%r]D;]A;Managed Thread ID: %8%r]D;]A;Unmanaged Thread ID: %9%r]D;]A;Caller Identity: %10%r]D;]A;Exception: %11%r]D;]A;Process Name: %12%r]D;]A;Process ID: %13%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610726" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[COM+:An error occurred while creating a COM instance.%r]D;]A;From: %1%r]D;]A;App ID: %2%r]D;]A;CLSID: %3%r]D;]A;Incoming Transaction ID: %4%r]D;]A;Surrogate: %5%r]D;]A;Requesting Identity: %6%r]D;]A;Exception: %7%r]D;]A;Process Name: %8%r]D;]A;Process ID: %9%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[COM+: Fehler beim Erstellen einer COM-Instanz.%r]D;]A;Von: %1%r]D;]A;Anw.- ID: %2%r]D;]A;CLSID: %3%r]D;]A;Eingehende Transaktions-ID: %4%r]D;]A;Ersatz: %5%r]D;]A;Anfordernde Identität: %6%r]D;]A;Ausnahme: %7%r]D;]A;Prozessname: %8%r]D;]A;Prozess-ID: %9%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[ComPlus:Error creating instance.%r]D;]A;From: %1%r]D;]A;App ID: %2%r]D;]A;CLSID: %3%r]D;]A;Incoming Transaction ID: %4%r]D;]A;Surrogate: %5%r]D;]A;Requesting Identity: %6%r]D;]A;Exception: %7%r]D;]A;Process Name: %8%r]D;]A;Process ID: %9%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073610725" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[ComPlus:Method call transaction mismatch.%r]D;]A;Incoming Transaction ID: %1%r]D;]A;Current Transaction ID: %2%r]D;]A;From: %3%r]D;]A;App ID: %4%r]D;]A;CLSID: %5%r]D;]A;IID: %6%r]D;]A;Action: %7%r]D;]A;Surrogate: %8%r]D;]A;Instance ID: %9%r]D;]A;Managed Thread ID: %10%r]D;]A;Unmanaged Thread ID: %11%r]D;]A;Caller Identity: %12%r]D;]A;Exception: %13%r]D;]A;Process Name: %14%r]D;]A;Process ID: %15%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[ComPlus: Transaktionskonflikt bei Methodenaufruf.%r]D;]A;Eingehende Transaktions-ID: %1%r]D;]A;Aktuelle Transaktions-ID: %2%r]D;]A;Von: %3%r]D;]A;Anw.-ID: %4%r]D;]A;CLSID: %5%r]D;]A;IID: %6%r]D;]A;Aktion: %7%r]D;]A;Ersatz: %8%r]D;]A;Instanz-ID: %9%r]D;]A;ID des verwalteten Thread: %10%r]D;]A;ID des nicht verwalteten Thread: %11%r]D;]A;Aufruferidentität: %12%r]D;]A;Ausnahme: %13%r]D;]A;Prozessname: %14%r]D;]A;Prozess-ID: %15%r]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545215" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An unhandled exception was thrown while a state machine was processing an event.%r]D;]A;Transaction ID: %1%r]D;]A;State machine name: %2%r]D;]A;Current state: %3%r]D;]A;History: %4%r]D;]A;Enlistment ID: %5%r]D;]A;Exception: %6%r]D;]A;Process Name: %7%r]D;]A;Process ID: %8%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Eine unbehandelte Ausnahme wurde ausgelöst, während ein Zustandsautomat ein Ereignis verarbeitet hat.%r]D;]A;Transaktions-ID: %1%r]D;]A;Zustandsautomatname: %2%r]D;]A;Aktueller Status: %3%r]D;]A;Verlauf: %4%r]D;]A;Eintragungs-ID: %5%r]D;]A;Ausnahme: %6%r]D;]A;Prozessname: %7%r]D;]A;Prozess-ID: %8%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol caught an unhandled exception while processing an incoming event. The event was considered to be fatal, so the MSDTC service was terminated.%r]D;]A;Transaction ID: %1%r]D;]A;State machine name: %2%r]D;]A;Current state: %3%r]D;]A;History: %4%r]D;]A;Enlistment ID: %5%r]D;]A;Exception: %6%r]D;]A;Process Name: %7%r]D;]A;Process ID: %8%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="Katrin" DateTime="2009-07-16T08:09:05Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545214" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A state machine attempted to process an unexpected event. The event was considered fatal.%r]D;]A;Transaction ID: %1%r]D;]A;State machine name: %2%r]D;]A;Current state: %3%r]D;]A;History: %4%r]D;]A;Event name: %5%r]D;]A;Event details: %6%r]D;]A;Process Name: %7%r]D;]A;Process ID: %8%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ein Zustandsautomat hat versucht, ein nicht erwartetes Ereignis zu verarbeiten. Das Ereignis wurde als schwerwiegend eingestuft.%r]D;]A;Transaktions-ID: %1%r]D;]A;Zustandsautomatname: %2%r]D;]A;Aktueller Status: %3%r]D;]A;Verlauf: %4%r]D;]A;Ereignisname: %5%r]D;]A;Ereignisdetails: %6%r]D;]A;Prozessname: %7%r]D;]A;Prozess-ID: %8%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol attempted to process an unexpected incoming event. The event was considered to be fatal, so the MSDTC service was terminated.%r]D;]A;Transaction ID: %1%r]D;]A;State machine name: %2%r]D;]A;Current state: %3%r]D;]A;History: %4%r]D;]A;Event name: %5%r]D;]A;Event details: %6%r]D;]A;Process Name: %7%r]D;]A;Process ID: %8%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="Katrin" DateTime="2009-07-16T08:10:47Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545213" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A participant recovery log entry was corrupt and could not be deserialized. Data loss may result from this error.%r]D;]A;Transaction ID: %1%r]D;]A;Recovery data (Base64 encoded): %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ein Wiederherstellungsprotokolleintrag für einen Teilnehmer war beschädigt und konnte nicht deserialisiert werden. Aufgrund dieses Fehlers können Daten verloren gehen.%r]D;]A;Transaktions-ID: %1%r]D;]A;Wiederherstellungsdaten (Base64-codiert): %2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol failed to deserialize a participant recovery log entry during service startup. This is a fatal condition that may result from a corrupt MSDTC log, so the MSDTC service was terminated.%r]D;]A;Transaction ID: %1%r]D;]A;Recovery data (Base64 encoded): %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545212" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A coordinator recovery log entry was corrupt and could not be deserialized. Data loss may result from this error.%r]D;]A;Transaction ID: %1%r]D;]A;Recovery data (Base64 encoded): %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ein Wiederherstellungsprotokolleintrag für einen Koordinator war beschädigt und konnte nicht deserialisiert werden. Aufgrund dieses Fehlers können Daten verloren gehen.%r]D;]A;Transaktions-ID: %1%r]D;]A;Wiederherstellungsdaten (Base64-codiert): %2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol failed to deserialize a coordinator recovery log entry during service startup. This is a fatal condition that may result from a corrupt MSDTC log, so the MSDTC service was terminated.%r]D;]A;Transaction ID: %1%r]D;]A;Recovery data (Base64 encoded): %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545211" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A recovery log entry could not be generated for the coordinator enlistment. The transaction will be aborted.%r]D;]A;Transaction ID: %1%r]D;]A;Reason: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ein Wiederherstellungsprotokolleintrag für die Koordinatoreintragung konnte nicht generiert werden. Die Transaktion wird abgebrochen.%r]D;]A;Transaktions-ID: %1%r]D;]A;Ursache: %2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol could not create a recovery log entry for its coordinator enlistment. The transaction was aborted.%r]D;]A;Transaction ID: %1%r]D;]A;Reason: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545210" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A recovery log entry could not be generated for a participant enlistment. The transaction will be aborted.%r]D;]A;Transaction ID: %1%r]D;]A;Enlistment ID: %2%r]D;]A;Reason: %3%r]D;]A;Exception: %4%r]D;]A;Process Name: %5%r]D;]A;Process ID: %6%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ein Wiederherstellungsprotokolleintrag für die Koordinatoreintragung konnte nicht generiert werden. Die Transaktion wird abgebrochen.%r]D;]A;Transaktions-ID: %1%r]D;]A;Eintragungs-ID: %2%r]D;]A;Ursache: %3%r]D;]A;Ausnahme: %4%r]D;]A;Prozessname: %5%r]D;]A;Prozess-ID: %6%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol could not create a recovery log entry for a participant enlistment. The transaction was aborted.%r]D;]A;Transaction ID: %1%r]D;]A;Enlistment ID: %2%r]D;]A;Reason: %3%r]D;]A;Exception: %4%r]D;]A;Process Name: %5%r]D;]A;Process ID: %6%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545209" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WS-AT protocol service failed to initialize. As a result, WS-AT functionality will be disabled.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Der WS-AT-Protokolldienst konnte nicht initialisiert werden. Die WS-AT-Funktion wird daher deaktiviert.%r]D;]A;Protokoll-ID: %1%r]D;]A;Protokollname: %2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol failed to initialize. As a result, WS-AtomicTransaction functionality will be disabled.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545208" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WS-AT protocol service failed to start. As a result, WS-AT functionality will be disabled.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Der WS-AT-Protokolldienst konnte nicht gestartet werden. Die WS-AT-Funktion wird daher deaktiviert.%r]D;]A;Protokoll-ID: %1%r]D;]A;Protokollname: %2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol failed to initialize. As a result, WS-AtomicTransaction functionality will be disabled.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545207" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The MSDTC WS-AT protocol failed at the beginning of recovery. As a result, WS-AT functionality will be disabled.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler des WS-AT-Protokolldiensts beim Start der Wiederherstellung. Die WS-AT-Funktion wird daher deaktiviert.%r]D;]A;Protokoll-ID: %1%r]D;]A;Protokollname: %2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol failed at the beginning of recovery. As a result, WS-AtomicTransaction functionality will be disabled.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="KA" DateTime="2009-07-17T19:04:28Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545206" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WS-AT protocol service failed to complete startup and recovery. As a result, WS-AT functionality will be disabled.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Der WS-AT-Protokolldienst konnte Start und Wiederherstellung nicht abschließen. Die WS-AT-Funktion wird daher deaktiviert.%r]D;]A;Protokoll-ID: %1%r]D;]A;Protokollname: %2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol failed while completing recovery. As a result, WS-AtomicTransaction functionality will be disabled.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545205" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The MSDTC TransactionBridge failed during recovery. This is a fatal condition, so the MSDTC service was terminated.%r]D;]A;Exception: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler der TransactionBridge von MSDTC während der Wiederherstellung. Dies ist ein schwerwiegender Fehler. Der MSDTC-Dienst wurde beendet.%r]D;]A;Ausnahme: %1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[A state machine attempted to process an unexpected event. The event was not considered fatal.%r]D;]A;Transaction ID: %1%r]D;]A;State machine: %2%r]D;]A;Current state: %3%r]D;]A;History: %4%r]D;]A;Event name: %5%r:]D;]A;Event details: %6%r]D;]A;Process Name: %7%r]D;]A;Process ID: %8%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545204" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WS-AT protocol service failed to stop.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Der WS-AT-Protokolldienst konnte nicht beendet werden.%r]D;]A;Protokoll-ID: %1%r]D;]A;Protokollname: %2%r]D;]A;Ausnahme: %3%r]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AT protocol service failed to stop.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545203" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A state machine attempted to process an unexpected event. The event was not considered fatal.%r]D;]A;Transaction ID: %1%r]D;]A;State machine: %2%r]D;]A;Current state: %3%r]D;]A;History: %4%r]D;]A;Event name: %5%r]D;]A;Event details: %6%r]D;]A;Process Name: %7%r]D;]A;Process ID: %8%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ein Zustandsautomat hat versucht, ein nicht erwartetes Ereignis zu verarbeiten. Das Ereignis wurde nicht als schwerwiegend eingestuft.%r]D;]A;Transaktions-ID: %1%r]D;]A;Zustandsautomat: %2%r]D;]A;Aktueller Status: %3%r]D;]A;Verlauf: %4%r]D;]A;Ereignisname: %5%r]D;]A;Ereignisdetails: %6%r]D;]A;Prozessname: %7%r]D;]A;Prozess-ID: %8%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol attempted to process an unexpected incoming event. The event was not considered fatal. The transaction may have been aborted, but transaction processing will continue.%r]D;]A;Transaction ID: %1%r]D;]A;State machine: %2%r]D;]A;Current state: %3%r]D;]A;History: %4%r]D;]A;Event name: %5%r:]D;]A;Event details: %6%r]D;]A;Process Name: %7%r]D;]A;Process ID: %8%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="Katrin" DateTime="2009-07-16T08:09:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545202" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A performance counter failed to initialize.%r]D;]A;Counter name: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ein Leistungsindikator konnte nicht initialisiert werden.%r]D;]A;Indikatorname: %1%r]D;]A;Ausnahme: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[An MSDTC WS-AtomicTransaction performance counter failed to initialize.%r]D;]A;Counter name: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545201" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WS-AT protocol service successfully completed startup and recovery.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Der WS-AT-Protokolldienst hat Start und Wiederherstellung erfolgreich abgeschlossen.%r]D;]A;Protokoll-ID: %1%r]D;]A;Protokollname: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol service successfully completed startup and recovery.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545200" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The WS-AT protocol service was stopped.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Der WS-AT-Protokolldienst wurde angehalten.%r]D;]A;Protokoll-ID: %1%r]D;]A;Protokollname: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The MSDTC WS-AtomicTransaction protocol service was stopped.%r]D;]A;Protocol ID: %1%r]D;]A;Protocol Name: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545199" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Identity certificate with thumbprint '%1' could not be found.%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Das Identitätszertifikat mit dem Fingerabdruck "%1" wurde nicht gefunden.%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545198" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Identity certificate with thumbprint '%1' could not be validated.%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Das Identitätszertifikat mit dem Fingerabdruck "%1" konnte nicht validiert werden.%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="Katrin" DateTime="2009-07-16T10:34:40Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545197" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Identity certificate with subject name '%1' and thumbprint '%2' does not have a private key.]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Das Identitätszertifikat mit Antragstellernamen "%1" und dem Fingerabdruck "%2" verfügt nicht über einen privaten Schlüssel.]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545196" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Identity certificate with subject name '%1' and thumbprint '%2' does not have an accessible private key.]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Das Identitätszertifikat mit Antragstellernamen "%1" und dem Fingerabdruck "%2" verfügt nicht über einen zugänglichen privaten Schlüssel.]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545195" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Identity certificate with subject name '%1' and thumbprint '%2' does not provide '%3' among its KeyUsages.]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Das Identitätszertifikat mit Antragstellernamen "%1" und dem Fingerabdruck "%2" enthält nicht "%3" in den Schlüsselverwendungen.]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073545194" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Identity certificate with subject name '%1' and thumbprint '%2' does not provide '%3' among its EnhancedKeyUsages.]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Das Identitätszertifikat mit Antragstellernamen "%1" und dem Fingerabdruck "%2" enthält nicht "%3" in den erweiterten Schlüsselverwendungen.]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073479679" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[The NT service failed to start; the listening endpoint could not be published.%r]D;]A;Error Code: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Der NT-Dienst konnte nicht gestartet werden: Der Endpunkt zum Lauschen konnte nicht veröffentlicht werden.%r]D;]A;Fehlercode: %1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[The NT service failed to start: couldn't publish the listening endpoint.%r]D;]A;Error Code: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="Katrin" DateTime="2009-07-16T10:34:40Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073479678" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An error occurred while parsing the %1 binding '%2' of the site '%3', thus the protocol is disabled for the site temporarily. See the exception message for more details.%r]D;]A;Binding: %4%r]D;]A;Source: %5%r]D;]A;Exception: %6%r]D;]A;Process Name: %7%r]D;]A;Process ID: %8%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler beim Analysieren der "%1"-Bindung "%2" der Site "%3". Deshalb wurde das Protokoll für die Site vorübergehend deaktiviert. Weitere Informationen finden Sie in der Ausnahmemeldung.%r]D;]A;Bindung: %4%r]D;]A;Quelle: %5%r]D;]A;Ausnahme: %6%r]D;]A;Prozessname: %7%r]D;]A;Prozess-ID: %8%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[An error occurred while parsing binding '%1' and path '%2' for protocol '%3'.%r]D;]A;Binding: %4%r]D;]A;Source: %5%r]D;]A;Exception: %6%r]D;]A;Process Name: %7%r]D;]A;Process ID: %8%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="HO3_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073479677" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An error occurred in the Activation Service '%1' of the protocol '%2' while trying to listen for the site '%3', thus the protocol is disabled for the site temporarily. See the exception message for more details.%r]D;]A;URL: %4%r]D;]A;Status: %5%r]D;]A;Exception: %6%r]D;]A;Process Name: %7%r]D;]A;Process ID: %8%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler beim Aktivierungsdienst "%1" des Protokolls "%2", während versucht wurde, an der Site "%3" zu lauschen. Deshalb wurde das Protokoll für die Site vorübergehend deaktiviert. Weitere Informationen finden Sie in der Ausnahmemeldung.%r]D;]A;URL: %4%r]D;]A;Status: %5%r]D;]A;Ausnahme: %6%r]D;]A;Prozessname: %7%r]D;]A;Prozess-ID: %8%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[An error occurred while trying to listen for the URL '%1'.%r]D;]A;Status: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="Katrin" DateTime="2009-07-16T10:34:40Z" />
+        <Props>
+          <Str Name="Custom5" Val="HO3_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073479676" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An unexpected error occurred in the listener adapter while handling a WAS notification. The process will be terminated.%r]D;]A;Protocol: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Unerwarteter Fehler im Listeneradapter bei der Verarbeitung einer WAS-Benachrichtigung. Der Prozess wird beendet.%r]D;]A;Protokoll: %1%r]D;]A;Ausnahme: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[An error occurred trying to listen for url '%1'%r]D;]A;Status: %2%r]D;]A;Exception: %3%r]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073479675" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[WAS was disconnected.%r]D;]A;HRESULT: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die WAS-Verbindung wurde getrennt.%r]D;]A;HRESULT: %1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[WAS disconnected.%r]D;]A;HRESULT: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073479674" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A connection that WAS depends on timed out.%r]D;]A;Process Name: %1%r]D;]A;Process ID: %2%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Für eine Verbindung, von der WAS abhängig ist, ist eine Zeitüberschreitung aufgetreten.%r]D;]A;Prozessname: %1%r]D;]A;Prozess-ID: %2%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[WAS connection timeout.%r]D;]A;Process Name: %1%r]D;]A;Process ID: %2%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073479673" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[A request to start the service failed.%r]D;]A;Error Code: %1%r]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler bei einer Anforderung zum Starten des Diensts.%r]D;]A;Fehlercode: %1%r]D;]A;Prozessname: %2%r]D;]A;Prozess-ID: %3%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[A request to start the service failed.%r]D;]A;Error Code: %1%r ]D;]A;Process Name: %2%r]D;]A;Process ID: %3%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="KA" DateTime="2009-07-17T19:04:28Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073479672" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An error occurred while dispatching a duplicated socket: this handle is now leaked in the process.%r]D;]A;ID: %1%r]D;]A;Source: %2%r]D;]A;Exception: %3%r ]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler beim Verteilen eines duplizierten Sockets: Dieses Handle geht jetzt im Prozess verloren.%r]D;]A;ID: %1%r]D;]A;Quelle: %2%r]D;]A;Ausnahme: %3%r ]D;]A;Prozessname: %4%r]D;]A;Prozess-ID: %5%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[An error occurred while dispatching a duplicated socket: this handle is now leaked in the target process with ID "%1".%r]D;]A;Source: %2%r]D;]A;Exception: %3%r ]D;]A;Process Name: %4%r]D;]A;Process ID: %5%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073479671" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[An error occurred while dispatching a duplicated named pipe: this handle is now leaked in the process.%r]D;]A;Source: %1%r]D;]A;Exception: %2%r]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler beim Verteilen eines duplizierten Named Pipe: Dieses Handle geht jetzt im Prozess verloren.%r]D;]A;Quelle: %1%r]D;]A;Ausnahme: %2%r]D;]A;Prozessname: %3%r]D;]A;Prozess-ID: %4%r]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[An error occurred while dispatching a duplicated named pipe: this handle is now leaked in the process.%r]D;]A;Source: %1%r]D;]A;Exception: %2%r ]D;]A;Process Name: %3%r]D;]A;Process ID: %4%r]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="KA" DateTime="2009-07-17T19:04:28Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_Updated" />
+        </Props>
+      </Item>
+      <Item ItemId="-1073348606" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Service authorization failed.%n]D;]A;Service: %1%n]D;]A;Action: %2%n]D;]A;ClientIdentity: %3%n]D;]A;AuthorizationContext: %4%n]D;]A;ActivityId: %5%n]D;]A;ServiceAuthorizationManager: %6%n]D;]A;%7]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler bei der Dienstautorisierung.%n]D;]A;Dienst: %1%n]D;]A;Aktion: %2%n]D;]A;ClientIdentity: %3%n]D;]A;AuthorizationContext: %4%n]D;]A;ActivityId: %5%n]D;]A;ServiceAuthorizationManager: %6%n]D;]A;%7]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="-1073348604" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Message authentication failed.%n]D;]A;Service: %1%n]D;]A;Action: %2%n]D;]A;ClientIdentity: %3%n]D;]A;ActivityId: %4%n]D;]A;%5]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler bei der Nachrichtenauthentifizierung.%n]D;]A;Dienst: %1%n]D;]A;Aktion: %2%n]D;]A;ClientIdentity: %3%n]D;]A;ActivityId: %4%n]D;]A;%5]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="-1073348602" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Security negotiation failed.%n]D;]A;Service: %1%n]D;]A;Action: %2%n]D;]A;ClientIdentity: %3%n]D;]A;ActivityId: %4%n]D;]A;Negotiation: %5%n]D;]A;%6]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler bei der Sicherheitsaushandlung.%n]D;]A;Dienst: %1%n]D;]A;Aktion: %2%n]D;]A;ClientIdentity: %3%n]D;]A;ActivityId: %4%n]D;]A;Aushandlung: %5%n]D;]A;%6]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="-1073348600" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Transport authentication failed.%n]D;]A;Service: %1%n]D;]A;ClientIdentity: %2%n]D;]A;ActivityId: %3%n]D;]A;%4]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler bei der Transportauthentifizierung.%n]D;]A;Dienst: %1%n]D;]A;Clientidentität: %2%n]D;]A;Aktivitäts-ID: %3%n]D;]A;%4]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="KA" DateTime="2009-07-17T19:04:28Z" />
+      </Item>
+      <Item ItemId="-1073348598" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Impersonation failed.%n]D;]A;MethodName: %1%n]D;]A;ClientIdentity: %2%n]D;]A;ActivityId: %3%n]D;]A;%4]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Fehler beim Identitätswechsel.%n]D;]A;Methodenname: %1%n]D;]A;Clientidentität: %2%n]D;]A;Aktivitäts-ID: %3%n]D;]A;%4]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+      <Item ItemId="1" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[ServiceAuthorization]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="Copied">
+            <Val><![CDATA[Dienstautorisierung]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="2" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[MessageAuthentication]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="Copied">
+            <Val><![CDATA[Nachrichtenauthentifizierung]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="3" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[ObjectAccess]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Objektzugriff]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="4" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Tracing]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Ablaufverfolgung]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="5" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[WebHost]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="N/A" Orig="New">
+            <Val><![CDATA[WebHost]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="6" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[FailFast]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="N/A" Orig="New">
+            <Val><![CDATA[FailFast]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="7" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Message Logging]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Nachrichtenprotokollierung]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="8" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Performance Counter]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Leistungsindikator]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="9" ItemType=";MSG" PsrId="3" InstFlg="true" Leaf="true">
+        <Str Cat="Message" UsrLk="true">
+          <Val><![CDATA[WMI]D;]A;]]></Val>
+          <Prev Cat="Message">
+            <Val><![CDATA[Indigo Listener]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="tln" DateTime="2012-03-19T13:45:30Z" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Locked=!ar-SA,!he-IL}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId="10" ItemType=";MSG" PsrId="3" InstFlg="true" Leaf="true">
+        <Str Cat="Message" UsrLk="true">
+          <Val><![CDATA[COM+]D;]A;]]></Val>
+          <Prev Cat="Message">
+            <Val><![CDATA[WMI]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="tln" DateTime="2012-03-19T13:45:30Z" />
+        <Cmts>
+          <Cmt Name="LcxAdmin"><![CDATA[{Locked=!ar-SA,!he-IL}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId="11" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[State Machine]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Zustandsautomat]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[COM+]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="Katrin" DateTime="2009-07-16T08:09:36Z" />
+      </Item>
+      <Item ItemId="12" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[WS-AT]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[WS-AT]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[State Machine]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="13" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Sharing Service]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Freigabedienst]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[WS-AT]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="14" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Listener Adapter]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Listeneradapter]D;]A;]]></Val>
+          </Tgt>
+          <Prev Cat="Message">
+            <Val><![CDATA[Sharing Service]D;]A;]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="1074135041" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Service authorization succeeded.%n]D;]A;Service: %1%n]D;]A;Action: %2%n]D;]A;ClientIdentity: %3%n]D;]A;AuthorizationContext: %4%n]D;]A;ActivityId: %5%n]D;]A;ServiceAuthorizationManager: %6]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die Serviceautorisierung war erfolgreich.%n]D;]A;Dienst: %1%n]D;]A;Aktion: %2%n]D;]A;ClientIdentity: %3%n]D;]A;AuthorizationContext: %4%n]D;]A;ActivityId: %5%n]D;]A;ServiceAuthorizationManager: %6]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="1074135043" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Message authentication succeeded.%n]D;]A;Service: %1%n]D;]A;Action: %2%n]D;]A;ClientIdentity: %3%n]D;]A;ActivityId: %4]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die Nachrichtenauthentifizierung war erfolgreich.%n]D;]A;Dienst: %1%n]D;]A;Aktion: %2%n]D;]A;ClientIdentity: %3%n]D;]A;ActivityId: %4]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="1074135045" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Security negotiation succeeded.%n]D;]A;Service: %1%n]D;]A;Action: %2%n]D;]A;ClientIdentity: %3%n]D;]A;ActivityId: %4%n]D;]A;Negotiation: %5]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die Sicherheitsaushandlung war erfolgreich.%n]D;]A;Dienst: %1%n]D;]A;Aktion: %2%n]D;]A;ClientIdentity: %3%n]D;]A;ActivityId: %4%n]D;]A;Aushandlung: %5]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      </Item>
+      <Item ItemId="1074135047" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Transport authentication succeeded.%n]D;]A;Service: %1%n]D;]A;ClientIdentity: %2%n]D;]A;ActivityId: %3%n]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Die Transportauthentifizierung war erfolgreich.%n]D;]A;Dienst: %1%n]D;]A;Clientidentität: %2%n]D;]A;ActivityId: %3%n]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="KA" DateTime="2009-07-17T19:04:28Z" />
+      </Item>
+      <Item ItemId="1074135049" ItemType=";MSG" PsrId="3" Leaf="true">
+        <Str Cat="Message">
+          <Val><![CDATA[Impersonation succeeded.%n]D;]A;MethodName: %1%n]D;]A;ClientIdentity: %2%n]D;]A;ActivityId: %3]D;]A;]]></Val>
+          <Tgt Cat="Message" Stat="Loc" Appr="PreApproved" Orig="New">
+            <Val><![CDATA[Der Identitätswechsel wurde erfolgreich ausgeführt.%n]D;]A;Methodenname: %1%n]D;]A;Clientidentität: %2%n]D;]A;Aktivitäts-ID: %3]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Props>
+          <Str Name="Custom5" Val="RC1_New" />
+        </Props>
+      </Item>
+    </Item>
+  </Item>
+  <Item ItemId=";String Table" ItemType=";Dummy" PsrId="3" Leaf="false">
+    <Disp Icon="Str" Disp="true" LocTbl="false" />
+    <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+    <Item ItemId="2000" ItemType=";STR" PsrId="3" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Windows Communication Foundation Net.TCP Listener Adapter (TCP-In)]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New">
+          <Val><![CDATA[Windows Communication Foundation Net.TCP-Listeneradapter (TCP-In)]]></Val>
+        </Tgt>
+        <Prev Cat="Text">
+          <Val><![CDATA[Windows Communication Foundation Net.TCP Service (TCP-In)]]></Val>
+        </Prev>
+      </Str>
+      <Disp Icon="Str" />
+      <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      <Props>
+        <Str Name="Custom2" Val="To_localize_B2" />
+        <Str Name="Custom3" Val="Beta2_new" />
+      </Props>
+    </Item>
+    <Item ItemId="2001" ItemType=";STR" PsrId="3" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[An inbound rule for Windows Communication Foundation to allow TCP traffic to the Net.TCP Listener Adapter [TCP 808]5D;]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New">
+          <Val><![CDATA[Eine eingehende Regel für Windows Communication Foundation, die TCP-Datenverkehr an den Net.TCP-Listeneradapter [TCP 808]5D; zulässt.]]></Val>
+        </Tgt>
+        <Prev Cat="Text">
+          <Val><![CDATA[An inbound rule for Windows Communication Foundation to allow TCP traffic to Net.TCP Web Services [TCP 808]5D;]]></Val>
+        </Prev>
+      </Str>
+      <Disp Icon="Str" />
+      <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      <Props>
+        <Str Name="Custom2" Val="To_localize_B2" />
+        <Str Name="Custom3" Val="Beta2_new" />
+      </Props>
+    </Item>
+    <Item ItemId="2002" ItemType=";STR" PsrId="3" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[Windows Communication Foundation]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New">
+          <Val><![CDATA[Windows Communication Foundation]]></Val>
+        </Tgt>
+      </Str>
+      <Disp Icon="Str" />
+      <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      <Props>
+        <Str Name="Custom2" Val="To_localize_B2" />
+        <Str Name="Custom3" Val="Beta2_new" />
+      </Props>
+    </Item>
+    <Item ItemId="12002" ItemType=";STR" PsrId="3" Leaf="true">
+      <Str Cat="Text">
+        <Val><![CDATA[This feature provides the ability to allow inbound traffic to the Net.TCP Listener Adapter.]]></Val>
+        <Tgt Cat="Text" Stat="Loc" Appr="PreApproved" Orig="New">
+          <Val><![CDATA[Diese Funktion ermöglicht das Zulassen von eingehendem Datenverkehr an den Net.TCP-Listeneradapter.]]></Val>
+        </Tgt>
+        <Prev Cat="Text">
+          <Val><![CDATA[This feature provides the ability to share TCP ports over the net.tcp protocol.]]></Val>
+        </Prev>
+      </Str>
+      <Disp Icon="Str" />
+      <Modified By="Katrin" DateTime="2009-07-16T10:34:40Z" />
+      <Props>
+        <Str Name="Custom2" Val="To_localize_B2" />
+        <Str Name="Custom3" Val="Beta2_new" />
+      </Props>
+    </Item>
+  </Item>
+  <Item ItemId=";Version" ItemType=";Dummy" PsrId="3" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+    <Item ItemId="1" ItemType="16" PsrId="3" Leaf="false">
+      <Disp Icon="Ver" Disp="true" LocTbl="false" />
+      <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+      <Item ItemId=";LT__LANG" ItemType=";VSTAMP" PsrId="3" Leaf="false">
+        <Bin BinId="5">
+          <Val><![CDATA[AAAAAA==]]></Val>
+        </Bin>
+        <Disp LocTbl="false" />
+        <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        <Item ItemId=";Comments" ItemType=";VSTAMP" PsrId="3" InstFlg="true" Leaf="true">
+          <Str Cat="Version" UsrLk="true">
+            <Val><![CDATA[Flavor=Retail]]></Val>
+            <Prev Cat="Version">
+              <Val><![CDATA[Flavor=Retail]]></Val>
+            </Prev>
+          </Str>
+          <Disp Icon="Ver" />
+          <Modified By="tln" DateTime="2012-03-19T13:45:30Z" />
+          <Cmts>
+            <Cmt Name="LcxAdmin"><![CDATA[{Locked}]]></Cmt>
+          </Cmts>
+        </Item>
+        <Item ItemId=";CompanyName" ItemType=";VSTAMP" PsrId="3" InstFlg="true" Leaf="true">
+          <Str Cat="Version" UsrLk="true">
+            <Val><![CDATA[Microsoft Corporation]]></Val>
+          </Str>
+          <Disp Icon="Ver" />
+          <Modified By="tln" DateTime="2012-03-19T13:45:30Z" />
+          <Cmts>
+            <Cmt Name="LcxAdmin"><![CDATA[{Locked}]]></Cmt>
+          </Cmts>
+        </Item>
+        <Item ItemId=";FileDescription" ItemType=";VSTAMP" PsrId="3" InstFlg="true" Leaf="true">
+          <Str Cat="Version">
+            <Val><![CDATA[ServiceModel related event descriptions]]></Val>
+            <Tgt Cat="Version" Stat="Loc" Appr="PreApproved" Orig="New">
+              <Val><![CDATA[Ereignisbeschreibungen zu ServiceModel]]></Val>
+            </Tgt>
+            <Prev Cat="Version">
+              <Val><![CDATA[ServiceModelEvents.dll]]></Val>
+            </Prev>
+          </Str>
+          <Disp Icon="Ver" />
+          <Modified By="tln" DateTime="2008-05-12T15:57:04Z" />
+          <Cmts>
+            <Cmt Name="LcxAdmin"><![CDATA[WB#4: {StrContains="ServiceModel"}]]></Cmt>
+          </Cmts>
+          <Props>
+            <Str Name="Custom2" Val="To review_OrcasSP1_RTM" />
+            <Str Name="Custom3" Val="OrcasSPB1_upd" />
+          </Props>
+        </Item>
+        <Item ItemId=";FileVersion" ItemType=";VSTAMP" PsrId="3" InstFlg="true" Leaf="true">
+          <Str Cat="Version" UsrLk="true">
+            <Val><![CDATA[4.0.30319.17492 built by: MAIN]]></Val>
+            <Prev Cat="Version">
+              <Val><![CDATA[3.0.4506.627 (winfxred.004506-0627)]]></Val>
+            </Prev>
+          </Str>
+          <Disp Icon="Ver" />
+          <Modified By="tln" DateTime="2012-03-19T13:45:30Z" />
+          <Cmts>
+            <Cmt Name="LcxAdmin"><![CDATA[{Locked}]]></Cmt>
+          </Cmts>
+          <Props>
+            <Str Name="Custom3" Val="Beta2_upd" />
+          </Props>
+        </Item>
+        <Item ItemId=";InternalName" ItemType=";VSTAMP" PsrId="3" InstFlg="true" Leaf="true">
+          <Str Cat="Version" UsrLk="true">
+            <Val><![CDATA[ServiceModelEvents.dll]]></Val>
+            <Prev Cat="Version">
+              <Val><![CDATA[ServiceModelAuditMessages.dll]]></Val>
+            </Prev>
+          </Str>
+          <Disp Icon="Ver" />
+          <Modified By="tln" DateTime="2012-03-19T13:45:30Z" />
+          <Cmts>
+            <Cmt Name="LcxAdmin"><![CDATA[{Locked}]]></Cmt>
+          </Cmts>
+        </Item>
+        <Item ItemId=";LegalCopyright" ItemType=";VSTAMP" PsrId="3" Leaf="true">
+          <Str Cat="Version">
+            <Val><![CDATA[© Microsoft Corporation.  All rights reserved.]]></Val>
+            <Tgt Cat="Version" Stat="Loc" Appr="PreApproved" Orig="New">
+              <Val><![CDATA[© Microsoft Corporation. Alle Rechte vorbehalten.]]></Val>
+            </Tgt>
+          </Str>
+          <Disp Icon="Ver" />
+          <Modified By="omrik" DateTime="2007-06-29T06:26:25Z" />
+        </Item>
+        <Item ItemId=";OriginalFilename" ItemType=";VSTAMP" PsrId="3" InstFlg="true" Leaf="true">
+          <Str Cat="Version" UsrLk="true">
+            <Val><![CDATA[ServiceModelEvents.dll.mui]]></Val>
+            <Prev Cat="Version">
+              <Val><![CDATA[ServiceModelEvents.dll]]></Val>
+            </Prev>
+          </Str>
+          <Disp Icon="Ver" />
+          <Modified By="tln" DateTime="2012-03-19T13:45:30Z" />
+          <Cmts>
+            <Cmt Name="LcxAdmin"><![CDATA[{Locked}]]></Cmt>
+          </Cmts>
+        </Item>
+        <Item ItemId=";PrivateBuild" ItemType=";VSTAMP" PsrId="3" InstFlg="true" Leaf="true">
+          <Str Cat="Version" UsrLk="true">
+            <Val><![CDATA[DDBLD659]]></Val>
+            <Prev Cat="Version">
+              <Val><![CDATA[XWS-BUILD3]]></Val>
+            </Prev>
+          </Str>
+          <Disp Icon="Ver" />
+          <Modified By="tln" DateTime="2012-03-19T13:45:30Z" />
+          <Cmts>
+            <Cmt Name="LcxAdmin"><![CDATA[{Locked}]]></Cmt>
+          </Cmts>
+          <Props>
+            <Str Name="Custom2" Val="To review_OrcasSP1_RTM" />
+          </Props>
+        </Item>
+        <Item ItemId=";ProductName" ItemType=";VSTAMP" PsrId="3" InstFlg="true" Leaf="true">
+          <Str Cat="Version" UsrLk="true">
+            <Val><![CDATA[Microsoft® .NET Framework]]></Val>
+          </Str>
+          <Disp Icon="Ver" />
+          <Modified By="tln" DateTime="2012-03-19T13:45:30Z" />
+          <Cmts>
+            <Cmt Name="LcxAdmin"><![CDATA[{Locked}]]></Cmt>
+          </Cmts>
+        </Item>
+        <Item ItemId=";ProductVersion" ItemType=";VSTAMP" PsrId="3" InstFlg="true" Leaf="true">
+          <Str Cat="Version" UsrLk="true">
+            <Val><![CDATA[4.0.30319.17492]]></Val>
+            <Prev Cat="Version">
+              <Val><![CDATA[3.0.4506.627]]></Val>
+            </Prev>
+          </Str>
+          <Disp Icon="Ver" />
+          <Modified By="tln" DateTime="2012-03-19T13:45:30Z" />
+          <Cmts>
+            <Cmt Name="LcxAdmin"><![CDATA[{Locked}]]></Cmt>
+          </Cmts>
+          <Props>
+            <Str Name="Custom3" Val="Beta2_upd" />
+          </Props>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</LCX>
